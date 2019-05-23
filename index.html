@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timeline</title>
+        <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cute+Font|Montaga&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cute+Font|Montaga|Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Cute+Font|Lobster|Montaga|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+        <link rel="javascript" type="text/js" href="script.js"></link>
+    </head>
+    <body>
+    
+    <div>
+        <h1 class="slo center"> Your History </h1>
+    </div>
+    
+        <div class="decro">
+            
+        <div id="calender_container">
+            <h1 id="year_title" class="center"> </h1>
+            <div id="month_switch"> 
+                <img  id="month_back" class="arrow" src="https://image.flaticon.com/icons/svg/81/81037.svg">
+                <h2 id="month"> </h2>
+                <img  id="month_for" class="arrow" src="https://image.flaticon.com/icons/svg/81/81068.svg">
+            </div>
+            <ul class="ul" id="ul_day"> 
+                <li class="week center"> Mon </li>
+                <li class="week center"> Tue </li>
+                <li class="week center"> Wed </li>
+                <li class="week center"> Thur </li>
+                <li class="week center"> Fri </li>
+                <li class="week center"> Sat </li>
+                <li class="week center"> Sun </li>
+            </ul>
+            
+            <ul class="ul" id="ul_date"> 
+            
+            </ul>
+        </div>   
+        
+        <div id="calender" class="center"> 
+            <h1 id="date">  </h1>
+            
+            <div id="text-content"> 
+                <h2 id="year"> year</h2>
+                <p id="description"> description</p>
+            </div>
+        </div>
+        
+        <div id="button" class="center">
+            <button class="button"  id="backward"> Back </button>
+            <input class="button" id="searchBar" placeholder="year"> 
+            <button class="button" id="searchEvents"> search </button>
+            <button class="button" id="forward"> Next </button>
+        </div>
+        
+        <div id="decra">
+            <div class="circle" id="outer_circle"> 
+                <div class="circle" id="inner_circle"> </div>
+            </div>
+            
+        </div>                
+
+        <div><p id="mes"> </p> </div>
+        <div class="timeline">  </div>
+        <div class="yearLine"> </div>
+        
+        <div id="bottom_slo" >
+            <h1 class= "slo center" > Your Life </h1>
+        </div>
+
+    </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+           
+</html>
